@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 왜가리B
 BASASS
+=======
+<<<<<<< HEAD
+왜가리1
+=======
+waegari2
+>>>>>>> human2
+>>>>>>> human1
