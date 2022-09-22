@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<!--현재 스크롤뷰가 2개존재함 xml
+    자바코드에서 찾아서사용할수 있게 해보기.
+    (변수식으로 초기화)-->
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="버튼"
+            />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="1500dp"
+        android:layout_height="wrap_content"
+        android:text="백인왜가리"
+        android:textSize="30dp"
+        />
+        </LinearLayout>
+    </ScrollView>
+    </HorizontalScrollView>
+</LinearLayout>
