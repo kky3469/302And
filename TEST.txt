@@ -1,14 +1,1 @@
-<<<<<<< HEAD
-왜가리B
-<<<<<<< HEAD
-B ssdfz
-=======
-BASASS
-=======
-<<<<<<< HEAD
-왜가리1
-=======
-waegari2
->>>>>>> human2
->>>>>>> human1
->>>>>>> human3
+BBBBBBBBBBBBBBBBBBBB
